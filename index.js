@@ -26,7 +26,6 @@ module.exports = function(source) {
 	// get macro name from source
 	var result = source.match(macroRegex);
 	if(result[1]) {
-		console.log(generateCode(source, result[1]))
 		return generateCode(source, result[1]);
 	}
 

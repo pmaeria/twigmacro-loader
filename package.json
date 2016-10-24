@@ -1,0 +1,24 @@
+{
+  "name": "twigmacro-loader",
+  "version": "1.0.0",
+  "description": "Loader for webpack that converts a twig macro into template that can be invoked through twig loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmaeria/twigmacro-loader.git"
+  },
+  "author": {
+    "name": "Paul Aeria @pmaeria"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmaeria/twigmacro-loader/issues"
+  },
+  "homepage": "https://github.com/pmaeria/twigmacro-loader#readme",
+  "dependencies": {
+    "loader-utils": "^0.2.16"
+  }
+}
